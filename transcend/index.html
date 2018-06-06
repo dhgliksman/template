@@ -27,8 +27,7 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 
 </head>
 
@@ -50,17 +49,15 @@
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
             <div class="header-nav__content">
-                <h3>Transcend Studio</h3>
+                <h3>Culidough</h3>
 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll" href="#community" title="community">Our Community</a></li>
                     <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll" href="#register" title="register">Register</a></li>
+                    <li><a class="smoothscroll" href="#register" title="register">Register Now</a></li>
+                    <li><a class="smoothscroll" href="#contact" title="contact">Contact Us</a></li>
                 </ul>
-
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href="#0">voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
 
                 <ul class="header-nav__social">
                     <li>
@@ -123,9 +120,10 @@
         <!-- end home-content -->
 
         <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">Community<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">About<span>our platform</span></a></li>
+            <li><a class="smoothscroll" href="#community">Our Community<span>who we are</span></a></li>
+            <li><a class="smoothscroll" href="#about">About<span>our platform</span></a></li>
             <li><a class="smoothscroll" href="#register">Register Now<span>get involved</span></a></li>
+            <li><a class="smoothscroll" href="#contact">Contact Us<span>connect with support</span></a></li>
         </ul>
         <!-- end home-sidelinks -->
 
@@ -164,7 +162,7 @@
 
     <!-- about
     ================================================== -->
-    <section id="about" class="s-about">
+    <section id="community" class="s-about">
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -191,7 +189,7 @@
 
     <!-- services
     ================================================== -->
-    <section id="services" class="s-services light-gray">
+    <section id="about" class="s-services light-gray">
 
         <div class="row section-header" data-aos="fade-up">
             <div class="col-full">
@@ -283,67 +281,6 @@
     </section>
     <!-- end s-services -->
 
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works">
-
-        <div class="testimonials-wrap" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-full testimonials-header">
-                    <h1 class="h1">What Our Community Members Are Saying.</h1>
-                    <h1></h1>
-                </div>
-            </div>
-
-            <div class="row testimonials">
-
-                <div class="col-full testimonials__slider">
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>**testimonial here</p>
-                        <div class="testimonials__author">
-                            Tim Cook
-                            <span>CEO, Apple</span>
-                        </div>
-                    </div>
-                    <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>**testimonial here**</p>
-                        <div class="testimonials__author">
-                            Sundar Pichai
-                            <span>CEO, Google</span>
-                        </div>
-                    </div>
-                    <!-- end testimonials__slide -->
-
-                    <div class="testimonials__slide">
-                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                        <p>**testimonial here**</p>
-                        <div class="testimonials__author">
-                            Satya Nadella
-                            <span>CEO, Microsoft</span>
-                        </div>
-                    </div>
-                    <!-- end testimonials__slide -->
-
-                </div>
-                <!-- end testimonials__slider -->
-
-            </div>
-            <!-- end testimonials -->
-
-        </div>
-        <!-- end testimonials-wrap -->
-
-    </section>
-    <!-- end s-works -->
-
-
     <!-- register
     ================================================== -->
     <section id="register" class="s-register">
@@ -363,11 +300,11 @@
 
             <div class="contact-subscribe">
                 <form id="mc-form" class="group mc-form" novalidate="true">
-                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="" style="color: antiquewhite">
-                    <input type="text" value="" name="FIRSTNAME" class="email" id="mc-firstname" placeholder="First Name" required="" style="color: antiquewhite">
-                    <input type="text" value="" name="LASTNAME" class="email" id="mc-lastname" placeholder="Last Name" required="" style="color: antiquewhite">
-                    <input type="text" value="" name="COUNTRY" class="email" id="mc-country" placeholder="Country" required="" style="color: antiquewhite">
-                    <input type="tel" value="" name="PHONE" class="email" id="mc-phonenumber" placeholder="Optional Phone Number" style="color: antiquewhite">
+                    <input type="email" value="" name="EMAIL" class="email" id="email" placeholder="Email Address" required="">
+                    <input type="text" value="" name="FIRSTNAME" class="email" id="firstName" placeholder="First Name" required="">
+                    <input type="text" value="" name="LASTNAME" class="email" id="lastName" placeholder="Last Name" required="">
+                    <input type="text" value="" name="COUNTRY" class="email" id="country" placeholder="Country" required="">
+                    <input type="tel" value="" name="PHONE" class="email" id="phone" placeholder="Optional Phone Number">
                     <input type="button" name="submit" value="Submit">
                 </form>
             </div>
